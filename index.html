@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Nandihalli Manjunath</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Education</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Nandihalli Manjunath</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./images/ppic.jpg" alt="Manjunath profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Manjunath</h1>
+        <p class="section__text__p2"> MCA graduated </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./resumenm.pdf')"
+          >
+            View resume
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./images/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/manjunath-n-961874222/'"
+          />
+          <img
+            src="./images/git.jpg"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/manjunathnandi789'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./images/abme.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./images/education.jpg"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>BCA. Bachelors of Computer Application<br />MCA. Masters of Computer Application</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I had completed my Master of Computer Application at The oxford college of engineering. I am always ready to adventure, meet new people and learn new things.
+ I am proficient in a variety of programming languages and technologies. I am also a highly motivated and results-oriented individual, and I am always looking for new challenges.
+I have a proven ability to work independently and as part of a team, and I am always willing to go the extra mile to get the job done. I am also a strong communicator.I am currently looking for a new opportunity where I can use my skills and experience to make a significant contribution to a company. I am confident that I can be a valuable asset to your team, and I look forward to hearing from you soon
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Education</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">MCA</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./images/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>The Oxford College of Engineering</h3>
+                  <p>2022-2024</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3> Percentage</h3>
+                  <p>81%</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title"> BCA</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./images/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Davanagere University</h3>
+                  <p>2019-2022</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Percentage</h3>
+                  <p>62.2%</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section id="Skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">SKILLS </h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frame works</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./images/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3> Bootstrap </h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Programming Languages</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./images/checkmark.jpg"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3> Java</h3>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./images/checkmark.jpg"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3> PHP </h3>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./images/checkmark.jpg"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3> SQL</h3>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./images/checkmark.jpg"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3> JavaScript</h3>
+                  </div>
+                </article>
+              </div>
+            </div>
+            </div>
+          </div>
+      </div>
+      </div>
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./images/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./images/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="manjunathnandihallin@gmail.com">manjunathnandihallin@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./images/call.jpg"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a>8431826789</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./images/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/manjunath-n-961874222//">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Education</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 ImpanGowda. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
